@@ -1,0 +1,43 @@
+/* CSS para reportes */
+.invoice-logo-img {
+    width: 220px !important;
+    height: 120px !important;
+}
+
+.invoice-header {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #EEE;
+    width: 630px;
+    text-align: center;
+}
+.invoice-details-tbl{
+    position: absolute;
+    left: 315px;
+    top: 80px;
+    width: 315px;
+    margin-bottom: 15px;
+    border-top: 1pt solid #CCCCCC;
+    border-left: 1pt solid #CCCCCC;
+    border-right: 1pt solid #CCCCCC;
+
+}
+
+.recipientAddressDetails {
+    width: 150px;
+    height: 97px;
+    position: static;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border: 1pt solid red;
+    /*background-color: cadetblue;
+    color: #CCCCCC;*/
+}
+
